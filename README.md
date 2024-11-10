@@ -1,2 +1,2 @@
 # voice-lessons
-browse catalog of singing lessons
+browse a catalog of singing lessons and, optionally, join a class
