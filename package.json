@@ -1,0 +1,21 @@
+{
+  	"name": "voice-lessons",
+  	"version": "1.0.0",
+  	"description": "",
+  	"main": "index.js",
+  	"scripts": {
+    		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "npx nodemon ./index.js server",
+		"debug": "node --inspect ./index.js server"
+  	},
+  	"keywords": [],
+  	"author": "",
+  	"license": "UNLICENSED",
+	"type": "module",
+	"dependencies": {
+		"@mojojs/core": "^1.26.6",
+		"chalk": "^5.3.0",
+		"dotenv": "^16.4.5",
+		"nodemon": "^3.1.4"
+	}
+}
