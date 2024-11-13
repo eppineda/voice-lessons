@@ -43,6 +43,7 @@ const mapRoutes = async app => {
 		const promises = []
 		const dirs = [
 			'./public',
+			'./public/data',
 		].forEach(async path => {
 			const allowed = [
 				/.html/,
@@ -52,6 +53,8 @@ const mapRoutes = async app => {
 				/.jpg/,
 				/.png/,
 				/.gif/,
+				/.xml/,
+				/.json/
 			]
 
 			promises.push(new Promise((resolve, reject) => {
