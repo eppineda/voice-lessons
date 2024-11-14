@@ -3,6 +3,13 @@ Browse a catalog of singing lessons and, optionally, join a class.
 
 This catalog is exposed via <a href="http://0.0.0.0:3000/raw.xml">a REST endpoint</a> that returns the catalog of courses as an XML document.
 
+```
+git clone git@github.com:eppineda/voice-lessons.git
+cd voice-lessons
+pnpm install
+pnpm run dev
+```
+
 # Two implementations
 This app demonstrates two ways to handle XML data in an HTML document:
 
