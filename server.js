@@ -54,6 +54,7 @@ const mapRoutes = async app => {
 				/.png/,
 				/.gif/,
 				/.xml/,
+				/.xsl/,
 				/.json/
 			]
 
