@@ -1,12 +1,6 @@
 import { all } from '../controllers/courses.js'
 
 const route = app => {
-	app.get('/courses/xml', async ctx => {
-		await ctx.sendFile(ctx.home.child('public/data/courses.xml'))
-	})
-	app.get('/courses/json', async ctx => {
-		await ctx.sendFile(ctx.home.child('public/data/courses.json'))
-	})
 	app.get('courses.xml', async ctx => {
 		await ctx.sendFile(ctx.home.child('public/data/courses.xml'))
 	})
