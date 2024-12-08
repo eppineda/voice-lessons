@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx nodemon ./index.js server",
-    "debug": "node --inspect ./index.js server"
+    "debug": "node --inspect ./index.js server",
+    "prod": "node ./index.js server -l http://127.0.0.1:8080"
   },
   "keywords": [],
   "author": "",
