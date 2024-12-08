@@ -5,7 +5,7 @@ import beautify from 'json-beautify'
 import parser from '../models/catalog.js'
 
 const all = async ctx => {
-	const request = 'http://0.0.0.0:3000/raw.xml'
+	const request = `${ ctx.req.baseURL}/raw.xml`; console.debug(request)
 	let json
 
 	fetch(request)
